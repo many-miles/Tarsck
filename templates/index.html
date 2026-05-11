@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarsck — Developer Task Manager</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <h1>TARSCK</h1>
+      <div class="tagline">Developer Task Management System</div>
+      <button class="btn btn-primary" id="btn-new-task">+ New Task</button>
+    </header>
+    <div class="main-layout">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <h2>Tasks</h2>
+          <span class="task-count" id="task-count"></span>
+        </div>
+        <div class="task-list" id="task-list"></div>
+      </aside>
+      <main class="detail-panel" id="detail-panel"></main>
+    </div>
+    <div id="toast"></div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
